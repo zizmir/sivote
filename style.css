@@ -1,0 +1,145 @@
+
+/*==== Corps de la page ====*/
+html, body, footer
+{
+   background-color: #330066;
+   opacity: 10;
+   color: yellow;
+   margin: 20px;
+   font-family:"palatino linotype", palatino, serif;
+}
+h1
+{
+    text-align: center;
+}
+h2
+{
+    text-align: center; 
+    border-bottom:  1px dashed yellow;
+}
+form
+{
+    text-align: center;
+}
+div
+{
+    border-width:3px 100px 3px 3px;
+    border: 1px double #ffffff;
+    border-radius: 20px;
+    border-color:yellow red;
+    padding:0px 10px 15px 15px;
+}
+
+#mail
+{
+    color:yellow;
+
+}
+
+#corps
+{
+   border-width: 0px;
+   position: absolute ;
+   right: 4%;
+   width:  42%;
+   top: 13em;
+}
+#cour
+{
+   border-width: 0px;
+   position: absolute ;
+   left:    4%;
+   width: 30%;
+   top: 13em;
+    overflow: hidden;
+
+}
+.worst
+{
+    overflow-y:auto;
+    height: 300px;
+}
+/*===== pied de page ====*/
+footer {
+    position: absolute;
+    clear:both;
+    margin-top: 25%;
+    top: 40%;
+    width: 90%;
+}
+#lien
+{
+    position: absolute;
+    left: 0px;
+    width: 46%;
+
+}
+#adresse{
+    position: absolute;
+    right:  15px;
+    height: 119px;
+    width: 46%;
+
+
+}
+/*========= Menu =======*/
+
+#img
+{
+    float: bottom;
+    width: 50px;
+    height: 50px;
+    border: 0;
+}
+#subs
+{
+    position: relative;
+}
+ul#subs li
+{
+    display: inline;
+    padding: 0 0.5em;
+}
+ul#subs 
+{
+    list-style-type: none;
+}
+
+/*==== bouton ===*/
+
+
+.button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  color: yellow;
+  font-size: 20px;
+  background: #330066;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+:hover.button {
+  background: #ffffff;
+  text-decoration: none;
+  color: #330066;
+}
+input.button{
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 8px;
+    color: yellow;
+    font-size: 15px;
+    background: #330066;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+button.button{
+     -webkit-border-radius: 28;
+     -moz-border-radius: 28;
+     border-radius: 8px;
+     color: yellow;
+     font-size: 15px;
+     background: #330066;
+     padding: 2px 5px 2px 5px;
+     text-decoration: none;
