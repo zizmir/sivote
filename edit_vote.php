@@ -3,7 +3,7 @@
 
     <div>   
 
-    <form method="post" action="ident.php">
+    <form method="post" action="add_article.php">
      <p>
          Titre:</br> <input type="text" name="titre"><br>
      </p>

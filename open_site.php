@@ -1,4 +1,9 @@
-<?php include 'lib/connection.php'?>
+
+<?php
+//session_start();
+//unset($_SESSION['pseudo']);
+
+include 'lib/connection.php'?>
 <!DOCTYPE html>
 <html>
 

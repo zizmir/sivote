@@ -2,15 +2,24 @@
 <?php
 include 'lib/connection.php';
 
+$pseudo =mysql_real_escape_string( $_POST['pseudo']);
+$pwd = mysql_real_escape_string($_POST['pwd']);
 
-var_dump($_POST['pseudo']);
-$res = $bdd->prepare('INSERT INTO util(pseudo, pwd) VALUES ( ? ,? )');
-$res->execute(array($_POST['pseudo'], $_POST['pwd']));
+if (!empty($pseudo) && !empty($pwd)) {
+    var_dump($pseudo);
+    $res = $bdd->prepare('INSERT INTO util(pseudo, pwd) VALUES ( ? ,? )');
+    $res->execute(array($pseudo, $pwd));
 
 
-//           var_dump($bdd);
-//             var_dump($article);
-//--Fermeture du site -->
+}
+else {
+    ?>
+    <script>alert('Veuillez completer le formulaire')</script>
+    <SCRIPT LANGUAGE="JavaScript">
+        document.location.href = "Inscription.php"
+    </SCRIPT>
+<?php
+}
 ?>
 <SCRIPT LANGUAGE="JavaScript">
     document.location.href="index.php"

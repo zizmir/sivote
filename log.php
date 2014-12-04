@@ -3,9 +3,9 @@
    
 <div id="form" >
 
- <form method="post" action="">
+ <form method="post" action="session.php">
      <p>
-         <label>Login:</label> <input type="text" name="login"><br>
+         <label>Login:</label> <input type="text" name="pseudo"><br>
      </p>
      <p>
          <label>Password:</label><input type="password" name='pwd' ><br>
@@ -15,4 +15,8 @@
     </div>
 
 
- <?php include 'close_site.php'; ?>
+ <?php
+
+
+
+     include 'close_site.php'; ?>

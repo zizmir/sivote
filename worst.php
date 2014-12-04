@@ -8,7 +8,7 @@ $response = $bdd ->query('SELECT * FROM article ORDER By article DESC  ');
     <?php
 while ($donnees = $response->fetch())
 {
-    echo '<h3>'. $donnees['titre'].'<br/></h3>';
+    echo '<h3>'. $donnees['titre'].'</h3><br/>';
     echo $donnees['article'].'<br />';
 
 }

@@ -4,7 +4,11 @@
                 <p> 
                    Regle numéro 1: si tu vote sa passe si tu vote pas bah sa passe pas. Donnez des idées général
                 </p>
-                
+                    <audio controls="controls" autoplay>
+                        <source src="killa.mp3" type="audio/mp3" />
+
+                        Votre navigateur ne supporte pas le tag <audio>.
+                        </audio>
                 </div>
             <div  id="cour">
                 <h2>Les idées récente</h2>
@@ -28,4 +32,5 @@
                  ?>
 
                 </marquee>
+
             </div>
