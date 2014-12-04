@@ -1,4 +1,4 @@
-
+<!-- Ouverture du site -->
 <?php include 'open_site.php';
 
 

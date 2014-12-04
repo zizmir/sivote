@@ -1,5 +1,5 @@
 <?php include 'connection.php'?>
-                <div id="corps">    
+    <div id="corps">
                 <h2>Bienvenue sur sivote</h2>
                 <p> 
                    Regle numéro 1: si tu vote sa passe si tu vote pas bah sa passe pas. Donnez des idées général
@@ -9,8 +9,8 @@
 
                         Votre navigateur ne supporte pas le tag <audio>.
                         </audio>
-                </div>
-            <div  id="cour">
+    </div>
+    <div  id="cour">
                 <h2>Les idées récente</h2>
                 <marquee direction="up" scrollamount="2" height="200" width="350">
                 <?php
@@ -32,5 +32,4 @@
                  ?>
 
                 </marquee>
-
-            </div>
+    </div>
