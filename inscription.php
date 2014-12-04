@@ -2,6 +2,7 @@
 <?php include 'open_site.php';
 
 ?>
+
 <div>
         <h2>Vos identifiants</h2>
     <form method="POST" action="add_user.php">
@@ -13,4 +14,9 @@
 
     </form>
 </div>
-<?php include 'close_site.php'; ?>
+
+<?php
+
+
+
+include 'close_site.php'; ?>
