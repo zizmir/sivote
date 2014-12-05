@@ -6,18 +6,23 @@ $_SESSION['pseudo'];
 
 include 'lib/connection.php'?>
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
 
 	<head>
 		<meta charset="utf-8">
 		<title>Sivote</Title>
                 <link rel="stylesheet" href="style.css">
-		<script src="script.js"></script>
+
+
+
 	</head>
         
 	<body>
 
-    
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+        $('body').html('Hello world']);
+    </script>
             <header>
                   <h1>Sivote</h1>
                   <h4>develloper by Bouznir M'bark</h4>
@@ -46,3 +51,5 @@ include 'lib/connection.php'?>
                                 ?>
 	                        </ul>
             </nav>
+
+
