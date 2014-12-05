@@ -1,5 +1,8 @@
+<?php session_start(); ?>
 <!-- Ouverture du site -->
-<?php include 'open_site.php';
+<?php
+
+include 'open_site.php';
 
 
 $response = $bdd ->query('SELECT * FROM article ORDER By article DESC  ');

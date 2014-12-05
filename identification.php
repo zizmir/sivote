@@ -7,17 +7,19 @@ include 'lib/connection.php';
  * Time: 15:10
  */
 // je recupère les donnes utilisateur que je stock dans une variable
-$pseudobdd = $bdd ->query('SELECT pseudo FROM util WHERE 1');
-$pwdbdd = $bdd ->query('SELECT pwd FROM util WHERE 1');
-
-//je stock les
 $pseudoform=mysql_real_escape_string($_POST['pseudo']);
 $pwdform=mysql_real_escape_string($_POST['pwd']);
-if($pseudoform == $pseudobdd && $pwdform == $pwdbdd)
+
+$result = $bdd ->query("SELECT * FROM util WHERE pseudo ='".$pseudoform."' AND pwd ='".$pwdbdd."'");
+
+
+
+if(is_object($result))
 {
     session_start();
     $_SESSION['pseudo'] =$pseudoform;
-    $_SESSION['pwd']=$pwdform;
+
+
     ?>
 
     <script language="JavaScript">
@@ -25,11 +27,12 @@ if($pseudoform == $pseudobdd && $pwdform == $pwdbdd)
     </script>
 <?php
  }
+
 else {
-   ?>
+    ?>
     <script language="JavaScript">
-    alert('membre non reconnu');
-    document.location.href="inscription.php";
+        alert('membre non reconnu');
+        document.location.href = "inscription.php";
     </script>
 <?php
 }

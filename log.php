@@ -3,7 +3,7 @@
    
 <div id="form" >
 
- <form method="post" action="session.php">
+ <form method="post" action="identification.php">
      <p>
          <label>Login:</label> <input type="text" name="pseudo"><br>
      </p>

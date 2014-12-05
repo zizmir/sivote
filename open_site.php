@@ -1,7 +1,8 @@
 
 <?php
-//session_start();
-//unset($_SESSION['pseudo']);
+$_SESSION['pseudo'];
+
+
 
 include 'lib/connection.php'?>
 <!DOCTYPE html>
@@ -27,7 +28,21 @@ include 'lib/connection.php'?>
                                     <li><a class="button" href="edit_vote.php">Poster une idée</a></li>
                                     <li><a class="button" href="best.php">Le top</a></li>
                                     <li><a class="button" href="worst.php">Le flop</a></li>
+                                <?php
+                                if(!isset($_SESSION['pseudo'])){
+                                ?>
                                     <li><a class="button" href="log.php">Connexion</a></li>
                                     <li><a class="button" href="inscription.php">Inscription</a></li>
+                                <?php
+                                }
+                                else
+                                {
+                                    ?>
+                                    <li><a class="button" href="espace_membre.php">Mon espace</a></li>
+                                    <li><a class="button" href="deco.php">Deconnexion</a></li>
+
+                                    <?php
+                                }
+                                ?>
 	                        </ul>
             </nav>

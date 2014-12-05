@@ -1,4 +1,5 @@
-  <?php include 'open_site.php';
+<?php session_start(); ?>
+<?php include 'open_site.php';
 ?>
   <div class="worst">
       <?php
