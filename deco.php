@@ -8,5 +8,5 @@
 session_start();
 session_destroy();
  include 'open_site.php';
-echo 'You have been logged out. <a href="/index.php">Go back</a>';
+echo 'Tu as été deconnecter . <a href="/index.php">revenir a l\'index</a>';
 include 'close_site.php';
