@@ -135,8 +135,8 @@
       <file leaf-file-name="identification.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/identification.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57781756" vertical-offset="0" max-vertical-offset="782">
-              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.27370304" vertical-offset="0" max-vertical-offset="782">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
               <folding>
                 <marker date="1417776545390" expanded="true" signature="321:340" placeholder="SELECT * FRO..util..." />
               </folding>
@@ -761,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/identification.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57781756" vertical-offset="0" max-vertical-offset="782">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.27370304" vertical-offset="0" max-vertical-offset="782">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
           <folding>
             <marker date="1417776545390" expanded="true" signature="321:340" placeholder="SELECT * FRO..util..." />
           </folding>
